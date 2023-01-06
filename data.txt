@@ -1,0 +1,12 @@
+Jun 15 21:03:53 kopi kernel: Kernel logging (proc) stopped.
+Jun 15 21:03:53 kopi kernel: Kernel log daemon terminating.
+Jun 15 21:03:54 kopi exiting on signal 15
+Jun 24 19:25:30 kopi syslogd 1.4.1: restart (remote reception).
+Jun 24 19:25:31 kopi kernel: klogd 1.4.1, log source = /proc/kmsg started.
+Jun 24 19:25:31 kopi kernel: Linux version 2.6.20-1.2952.fc6
+(brewbuilder@ls20-bc1-14.build.redhat.com) (gcc version 4.1.1 20070105
+(Red Hat 4.1.1-51)) #1 SMP Wed May 16 18:59:18 EDT 2007
+Jun 24 19:25:31 kopi kernel: BIOS-provided physical RAM map:
+Jun 24 19:25:31 kopi kernel: sanitize start
+Jun 24 19:25:31 kopi kernel: sanitize end
+Jun 24 19:25:31 kopi kernel: copy_e820_map() start: 0000000000000000 size: 000000000009f800 end: 000000000009f800 type: 1
