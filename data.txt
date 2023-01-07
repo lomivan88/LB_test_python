@@ -10,3 +10,6 @@ Jun 24 19:25:31 kopi kernel: BIOS-provided physical RAM map:
 Jun 24 19:25:31 kopi kernel: sanitize start
 Jun 24 19:25:31 kopi kernel: sanitize end
 Jun 24 19:25:31 kopi kernel: copy_e820_map() start: 0000000000000000 size: 000000000009f800 end: 000000000009f800 type: 1
+Jun 15 21:03:53 kopi kernel: Kernel logging (proc) stopped.
+Jun 15 21:03:53 kopi kernel: Kernel log daemon terminating.
+Jun 15 21:03:54 kopi exiting on signal 15
