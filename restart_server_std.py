@@ -12,7 +12,7 @@ for line in sys.stdin:
             last_info = line_before.rsplit()[0:3]
             server_start = line.rsplit()[0:3]
             sys.stdout.write(f"{' '.join(last_info)}: Server crashed! \n{' '.join(server_start)}: Server restarted")
-    #Z dat předpokládám jen dvě situace - log začíná datumem (chtěná informace), či log začíná závorkou (nepotřebná informace)
+    #Z dat předpokládám jen dvě situace - log začíná datumem (lze zjistit čas před pádem serveru), či log začíná závorkou (nepotřebná informace)
     if line[0] != "(":                    
         line_before = line
         
