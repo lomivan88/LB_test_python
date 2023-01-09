@@ -17,7 +17,6 @@ for line in sys.stdin:
             l_info = re.match(regex_date_time, line_before)
             s_start = re.match(regex_date_time, line_before)
             sys.stdout.write(f"{l_info.group(0)}: Server crashed! \n{s_start.group(0)}: Server restarted")
-    #Z dat předpokládám jen dvě situace - log začíná datumem (lze zjistit čas před pádem serveru), či log začíná závorkou (nepotřebná informace)
-    if line[0] != "(":                    
-        line_before = line
+            
+    line_before = line
         
